@@ -505,7 +505,7 @@ ospfs_dir_readdir(struct file *filp, void *dirent, filldir_t filldir)
 
 				default:
 				{
-					r = 1;
+					ok_so_far = -1;
 					continue;
 				}
 			}
