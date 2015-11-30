@@ -32,7 +32,7 @@
  *      An "inode" holds a file's metadata: its size, its type, and the
  *      numbers of the data blocks that contain its data.
  *      (The file's name, however, is stored elsewhere.)
- *      Each file and directory on the disk corresponds to an inode.
+ *      Each file and direactory on the disk corresponds to an inode.
  *      All inodes are stored in the inode blocks.
  *   4. The rest of the disk consists of DATA BLOCKS.
  *      Each data block belongs to a normal file or to a directory.
@@ -118,7 +118,7 @@ typedef struct ospfs_inode {
 	uint32_t oi_mode;		    // File permissions mode
 	
 	uint32_t oi_direct[OSPFS_NDIRECT];  // Direct block pointers
-	uint32_t oi_indirect;               // Indirect block
+	uint32_t oi_indirect;               // Indirect blocks
 	uint32_t oi_indirect2;		    // Doubly indirect block
 } ospfs_inode_t;
 

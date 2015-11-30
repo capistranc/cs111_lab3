@@ -11,14 +11,14 @@
 # information you'd like us to know, please add it at the end of the file.
 
 # Partner 1
-Name: 
-Student ID: 
-Email: 
+Name: Chris Capistran
+Student ID: 304-499-904
+Email: capistranc@gmail.com
 
 # Partner 2 (if you're working in a team)
-Name: 
-Student ID: 
-Email: 
+Name: Amal Durisetti
+Student ID: 904-331-855
+Email: aduriseti@gmail.com 
 
 # Extra credit problems
 #Extra credit problem: none
